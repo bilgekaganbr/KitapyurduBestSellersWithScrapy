@@ -9,7 +9,7 @@ class BooksSpider(scrapy.Spider):
     # Counter for the books
     book_count = 1
 
-    # Open the file to write book information
+    # Open a file to write book information
     file = open("books.txt", "a", encoding = "UTF_8")
 
     # Starting URL for scraping book data
